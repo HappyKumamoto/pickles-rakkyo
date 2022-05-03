@@ -5,3 +5,36 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+.culc_form{
+  background-color: olivedrab;
+  padding: 10px 30px;
+}
+
+form dl dt {
+  width: 200px;
+  height: 40px;
+  padding: 10px 0;
+  line-height: 40px;
+  float: left;
+}
+
+form dl dd {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 150px !important;
+  height: 40px !important;
+  margin: 0 !important;
+  padding: 0 10px !important;
+}
+
+.culk_btn{
+  width: 80px ;
+  height: 30px;
+  border: 1px solid lightgreen;
+
+}
