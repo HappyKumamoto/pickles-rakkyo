@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="cul.css">
 </head>
 <body>
-  <h1>作成中です(o^−^o)<br>
+  <h1>とりあえず算出可能です(=^x^=)<br> &nbsp; <br>
     漬け汁の分量 & 容器の容量<br>を算出します！</h1>
   <form class="culc_form">
     <dl>
-      <dt>らっきょう 正味(g)</dt>
+      <dt>らっきょう[塩漬け前](g)</dt>
       <dd><input id="rakkyo" type="number" class="box" name="rakkyo"></dd>
 
-      <p><input type="button" class="calc-btn" onclick="calc(rakkyo)" value="算出する"></p>
+      <p><input type="button" class="calc-btn" onclick="calc(rakkyo.value);" value="算出する"></p>
 
       <dt>塩(g):</dt>
       <dd><input id="salt" class="box" type="text" readonly=""></dd>
@@ -23,13 +23,13 @@
       <dd><input id="vinegar" class="box" type="text" readonly=""></dd>
       <dt>砂糖(g):</dt>
       <dd><input id="sugar" class="box" type="text" readonly=""></dd>
-      <dt>漬け容器の容量(ml):</dt>
+      <dt>とうがらし(本):</dt>
+      <dd><input id="chili" class="box" type="text" readonly=""></dd>
+      <dt>漬け容器の容量[概算](ml):</dt>
       <dd><input id="volume" class="box" type="text" readonly=""></dd>
     </dl>
   </form>
 
-  <!-- <input type="number" id="omosa" seize="10" maxlength="5"> g -->
-  <!-- <button id="cul">計算する</button> -->
   <script src="cul.js"></script>
   
 </body>

@@ -1,6 +1,6 @@
 body {
   background-color: blanchedalmond;
-  color: black;
+  /* color: black; */
   width: 500px;
   margin-right: auto;
   margin-left: auto;
@@ -9,6 +9,7 @@ body {
 .culc_form{
   background-color: olivedrab;
   padding: 10px 30px;
+  color:beige;
 }
 
 form dl dt {
