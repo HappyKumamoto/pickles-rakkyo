@@ -1,6 +1,6 @@
 body {
-  background-color: blanchedalmond;
-  /* color: black; */
+  background-color: rgb(237, 227, 112);
+  color: rgb(91, 53, 53); 
   width: 500px;
   margin-right: auto;
   margin-left: auto;
@@ -33,9 +33,11 @@ form dl dd {
   padding: 0 10px !important;
 }
 
-.culc_btn{
+.calc-btn{
   width: 80px ;
   height: 30px;
-  border: 1px solid lightgreen;
+  border: 1px solid rgb(243, 246, 243);
+  background-color: #ee611a;
+  color:aliceblue;
 
 }

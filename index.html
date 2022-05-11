@@ -9,23 +9,32 @@
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
-  <h1>とりあえず算出可能です(=^x^=)<br> &nbsp; <br>
-    漬け汁の分量 & 容器の容量<br>を算出します！</h1>
+  <h3>作り方はこれから書きます。<br>それまでは紙のメモを見てください。<br>↓取り急ぎ、算出フォーム完成です。
+    <br> &nbsp; </h3>
+    <h1>・ザルで一晩まぶしておく塩の量<br>・漬け汁材料の分量<br>・容器の容量の概算<br>を算出します！</h1>
   <form class="culc_form">
     <dl>
       <dt>らっきょう[塩漬け前](g)</dt>
       <dd><input id="rakkyo" type="number" class="box" name="rakkyo"></dd>
 
-      <p><input type="button" class="calc-btn" onclick="calc(rakkyo.value);" value="算出する"></p>
+      <p><input type="button" class="calc-btn" onclick="calc(rakkyo.value);" value=" 算 出 "></p>
+
+      <h6>____________________________________________________________________</h6>
 
       <dt>塩(g):</dt>
       <dd><input id="salt" class="box" type="text" readonly=""></dd>
+
+      <h6>_____________________________________________________________________</h6>
+
       <dt>酢(ml):</dt>
       <dd><input id="vinegar" class="box" type="text" readonly=""></dd>
       <dt>砂糖(g):</dt>
       <dd><input id="sugar" class="box" type="text" readonly=""></dd>
       <dt>とうがらし(本):</dt>
       <dd><input id="chili" class="box" type="text" readonly=""></dd>
+
+      <h6>______________________________________________________________________</h6>
+
       <dt>漬け容器の容量[概算](ml):</dt>
       <dd><input id="volume" class="box" type="text" readonly=""></dd>
     </dl>
