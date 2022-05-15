@@ -10,6 +10,7 @@ body {
   background-color: olivedrab;
   padding: 10px 30px;
   color:beige;
+  font-size: 120%;
 }
 
 form dl dt {
@@ -39,5 +40,5 @@ form dl dd {
   border: 1px solid rgb(243, 246, 243);
   background-color: #ee611a;
   color:aliceblue;
-
+  font-size: 102%;
 }
