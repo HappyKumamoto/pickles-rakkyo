@@ -9,7 +9,7 @@ function calc(rakkyo){
   let sugar_value=document.getElementById('sugar').value=`${Math.round(rakkyo * 0.15)}g 
   〜 ${Math.round(rakkyo * 0.3)}g(甘め)`;
 
-  let chili_value=document.getElementById('chili').value="お好みで";
+  let chili_value=document.getElementById('chili').value="お好みで(だいたい5〜6本)";
 
   let  volume_value=document.getElementById('volume').value=`約 ${Math.round(rakkyo * 1.8)}ml`;
  
